@@ -1,0 +1,1 @@
+ D:\\Kuliah\\SEMESTER\ 6\\Pemrograman\ Bergerak\\Flutter\\its_food\\.dart_tool\\flutter_build\\0037e30d44a7ff52e8969224cfb9baaa\\native_assets.yaml: 

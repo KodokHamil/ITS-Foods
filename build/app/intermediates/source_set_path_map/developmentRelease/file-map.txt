@@ -1,0 +1,25 @@
+com.example.its_food.app-lifecycle-runtime-2.3.1-0 C:\Users\andry\.gradle\caches\transforms-3\040a2ba3c0dc4e1f6e799df6a10f70fc\transformed\lifecycle-runtime-2.3.1\res
+com.example.its_food.app-jetified-window-1.0.0-beta04-1 C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\res
+com.example.its_food.app-jetified-android-maps-utils-3.6.0-2 C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\res
+com.example.its_food.app-jetified-window-java-1.0.0-beta04-3 C:\Users\andry\.gradle\caches\transforms-3\826d1c4bca51f7397bf7f61daf58bbec\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.its_food.app-jetified-annotation-experimental-1.3.0-4 C:\Users\andry\.gradle\caches\transforms-3\8487ca4f205c6400f012e21c9fe98459\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.its_food.app-jetified-play-services-base-18.1.0-5 C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\res
+com.example.its_food.app-jetified-play-services-basement-18.1.0-6 C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\res
+com.example.its_food.app-jetified-play-services-maps-18.2.0-7 C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\res
+com.example.its_food.app-core-1.9.0-8 C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\res
+com.example.its_food.app-development-9 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\development\res
+com.example.its_food.app-developmentRelease-10 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\developmentRelease\res
+com.example.its_food.app-main-11 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\res
+com.example.its_food.app-release-12 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\release\res
+com.example.its_food.app-development-13 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\app\generated\res\pngs\development\release
+com.example.its_food.app-development-14 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\app\generated\res\resValues\development\release
+com.example.its_food.app-development-15 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\app\generated\res\rs\development\release
+com.example.its_food.app-mergeDevelopmentReleaseResources-16 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\app\intermediates\incremental\developmentRelease\mergeDevelopmentReleaseResources\merged.dir
+com.example.its_food.app-mergeDevelopmentReleaseResources-17 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\app\intermediates\incremental\developmentRelease\mergeDevelopmentReleaseResources\stripped.dir
+com.example.its_food.app-merged_res-18 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\app\intermediates\merged_res\developmentRelease
+com.example.its_food.app-packaged_res-19 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+com.example.its_food.app-packaged_res-20 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\packaged_res\release
+com.example.its_food.app-packaged_res-21 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\google_maps_flutter_android\intermediates\packaged_res\release
+com.example.its_food.app-packaged_res-22 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\path_provider_android\intermediates\packaged_res\release
+com.example.its_food.app-packaged_res-23 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\shared_preferences_android\intermediates\packaged_res\release
+com.example.its_food.app-packaged_res-24 D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\sqflite\intermediates\packaged_res\release

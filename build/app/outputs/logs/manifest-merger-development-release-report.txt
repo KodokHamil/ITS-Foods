@@ -1,0 +1,303 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:7:5-41:19
+MERGED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\andry\.gradle\caches\transforms-3\d1a45a6fba80e49f7058b4bf447a27a7\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\andry\.gradle\caches\transforms-3\d1a45a6fba80e49f7058b4bf447a27a7\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\andry\.gradle\caches\transforms-3\03e8d962d1d28ef6c09135ee25e2eb8c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\andry\.gradle\caches\transforms-3\03e8d962d1d28ef6c09135ee25e2eb8c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\andry\.gradle\caches\transforms-3\c605e99bd6d6f03887e429a652d8bd5f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\andry\.gradle\caches\transforms-3\c605e99bd6d6f03887e429a652d8bd5f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:8:9-33
+	android:icon
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:10:9-43
+	android:name
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:9:9-42
+manifest
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+MERGED from [:google_maps_flutter_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\google_maps_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
+MERGED from [:path_provider_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\826d1c4bca51f7397bf7f61daf58bbec\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\andry\.gradle\caches\transforms-3\d1a45a6fba80e49f7058b4bf447a27a7\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\andry\.gradle\caches\transforms-3\03e8d962d1d28ef6c09135ee25e2eb8c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\andry\.gradle\caches\transforms-3\e217d7a284f900c9158eb0be864f954c\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\db9d9b429fba5ca9d0af2b29d634bf3a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\8a76601e5aa8638eb47c83a4e2e284d3\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\a442f6b2c10d3cd73357afdfeddc7de9\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\cf34dc33976af8fd5daa420017a237a1\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\andry\.gradle\caches\transforms-3\8487ca4f205c6400f012e21c9fe98459\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\3b5de2e666e391a5e72844cd97cfbff8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\andry\.gradle\caches\transforms-3\040a2ba3c0dc4e1f6e799df6a10f70fc\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\andry\.gradle\caches\transforms-3\c605e99bd6d6f03887e429a652d8bd5f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\145d4434fa68e1d8e01a54518399b3e1\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\andry\.gradle\caches\transforms-3\40c71a1746a76fae0725ce45bc7a39b9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\andry\.gradle\caches\transforms-3\fa0f3349018577add5e581c7fb74cf7d\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\andry\.gradle\caches\transforms-3\8515188f6c9839150d8848dba6cf2a95\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\andry\.gradle\caches\transforms-3\5fa8a1a3ca25a50b7dc3772b21187253\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+	package
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:1-53:12
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:5:22-78
+queries
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:47:5-52:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:48:9-51:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:49:13-72
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:49:21-70
+data
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:50:13-50
+	android:mimeType
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:50:19-48
+uses-sdk
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+MERGED from [:google_maps_flutter_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\google_maps_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\google_maps_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\826d1c4bca51f7397bf7f61daf58bbec\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\826d1c4bca51f7397bf7f61daf58bbec\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\andry\.gradle\caches\transforms-3\d1a45a6fba80e49f7058b4bf447a27a7\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\andry\.gradle\caches\transforms-3\d1a45a6fba80e49f7058b4bf447a27a7\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\andry\.gradle\caches\transforms-3\03e8d962d1d28ef6c09135ee25e2eb8c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\andry\.gradle\caches\transforms-3\03e8d962d1d28ef6c09135ee25e2eb8c\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\andry\.gradle\caches\transforms-3\e217d7a284f900c9158eb0be864f954c\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\andry\.gradle\caches\transforms-3\e217d7a284f900c9158eb0be864f954c\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\db9d9b429fba5ca9d0af2b29d634bf3a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\db9d9b429fba5ca9d0af2b29d634bf3a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\8a76601e5aa8638eb47c83a4e2e284d3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\8a76601e5aa8638eb47c83a4e2e284d3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\a442f6b2c10d3cd73357afdfeddc7de9\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\a442f6b2c10d3cd73357afdfeddc7de9\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\cf34dc33976af8fd5daa420017a237a1\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\cf34dc33976af8fd5daa420017a237a1\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\andry\.gradle\caches\transforms-3\8487ca4f205c6400f012e21c9fe98459\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\andry\.gradle\caches\transforms-3\8487ca4f205c6400f012e21c9fe98459\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\3b5de2e666e391a5e72844cd97cfbff8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\3b5de2e666e391a5e72844cd97cfbff8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\andry\.gradle\caches\transforms-3\040a2ba3c0dc4e1f6e799df6a10f70fc\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\andry\.gradle\caches\transforms-3\040a2ba3c0dc4e1f6e799df6a10f70fc\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\andry\.gradle\caches\transforms-3\c605e99bd6d6f03887e429a652d8bd5f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\andry\.gradle\caches\transforms-3\c605e99bd6d6f03887e429a652d8bd5f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\145d4434fa68e1d8e01a54518399b3e1\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\andry\.gradle\caches\transforms-3\145d4434fa68e1d8e01a54518399b3e1\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\andry\.gradle\caches\transforms-3\40c71a1746a76fae0725ce45bc7a39b9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\andry\.gradle\caches\transforms-3\40c71a1746a76fae0725ce45bc7a39b9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\andry\.gradle\caches\transforms-3\fa0f3349018577add5e581c7fb74cf7d\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\andry\.gradle\caches\transforms-3\fa0f3349018577add5e581c7fb74cf7d\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\andry\.gradle\caches\transforms-3\8515188f6c9839150d8848dba6cf2a95\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\andry\.gradle\caches\transforms-3\8515188f6c9839150d8848dba6cf2a95\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\andry\.gradle\caches\transforms-3\5fa8a1a3ca25a50b7dc3772b21187253\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\andry\.gradle\caches\transforms-3\5fa8a1a3ca25a50b7dc3772b21187253\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:5:5-44
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:11:9-13:70
+	android:value
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:13:13-68
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:12:13-58
+activity#com.example.its_food.MainActivity
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:14:9-34:20
+	android:launchMode
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:17:13-43
+	android:hardwareAccelerated
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:20:13-47
+	android:windowSoftInputMode
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:21:13-55
+	android:exported
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:16:13-36
+	android:configChanges
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:19:13-163
+	android:theme
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:18:13-47
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:15:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:26:13-29:17
+	android:resource
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:28:17-54
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:27:17-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#flutterEmbedding
+ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:37:9-39:33
+	android:value
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:39:13-30
+	android:name
+		ADDED from D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:38:13-44
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\andry\.gradle\caches\transforms-3\4172fbd31ec1af765004e1f236009a8b\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.its_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.its_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94

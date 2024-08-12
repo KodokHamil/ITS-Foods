@@ -1,0 +1,13 @@
+#Sun Jul 14 00:03:30 WIB 2024
+base.0=D\:\\Kuliah\\SEMESTER 6\\Pemrograman Bergerak\\Flutter\\its_food\\android\\app\\build\\intermediates\\dex\\developmentDebug\\mergeExtDexDevelopmentDebug\\classes.dex
+base.1=D\:\\Kuliah\\SEMESTER 6\\Pemrograman Bergerak\\Flutter\\its_food\\android\\app\\build\\intermediates\\dex\\developmentDebug\\mergeLibDexDevelopmentDebug\\0\\classes.dex
+base.2=D\:\\Kuliah\\SEMESTER 6\\Pemrograman Bergerak\\Flutter\\its_food\\android\\app\\build\\intermediates\\dex\\developmentDebug\\mergeProjectDexDevelopmentDebug\\0\\classes.dex
+base.3=D\:\\Kuliah\\SEMESTER 6\\Pemrograman Bergerak\\Flutter\\its_food\\android\\app\\build\\intermediates\\dex\\developmentDebug\\mergeProjectDexDevelopmentDebug\\1\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

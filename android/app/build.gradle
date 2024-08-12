@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+android {
+    namespace 'com.example.its_food'
+    compileSdk 34 // Ensure you are using a valid SDK version
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId 'com.example.its_food'
+        minSdkVersion 21 // Ensure you are using a valid min SDK version
+        targetSdkVersion 34 // Ensure you are using a valid target SDK version
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            // Enables code shrinking, obfuscation, and optimization for release builds
+            minifyEnabled true
+            
+            // Enables resource shrinking, which further reduces the size of your APK
+            shrinkResources true
+            
+            // ProGuard configuration files
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+
+        }
+        debug {
+            signingConfig signingConfigs.debug
+            
+            debuggable true
+        }
+    }
+    flavorDimensions "flavor-type"
+
+    productFlavors{
+        development{
+            dimension "flavor-type"
+        }
+        staging{
+            dimension "flavor-type"
+        }
+        production{
+            dimension "flavor-type"
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
+    implementation "com.google.android.gms:play-services-location:18.0.0"
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.its_food.app-mergeStagingDebugResources-16:/values-en-rIN/values-en-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\andry\\.gradle\\caches\\transforms-3\\f8a1103822bd9d8b9adc33a5afb14cf3\\transformed\\core-1.9.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

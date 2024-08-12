@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.its_food"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:4:5-79
+11-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:5:5-81
+12-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:5:22-78
+13    <!--
+14         Required to query activities that can process text, see:
+15         https://developer.android.com/training/package-visibility?hl=en and
+16         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+17
+18         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+19    -->
+20    <queries>
+20-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:47:5-52:15
+21        <intent>
+21-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:48:9-51:18
+22            <action android:name="android.intent.action.PROCESS_TEXT" />
+22-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:49:13-72
+22-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:49:21-70
+23
+24            <data android:mimeType="text/plain" />
+24-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:50:13-50
+24-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:50:19-48
+25        </intent>
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+28    </queries>
+29    <!-- Include required permissions for Google Maps API to run. -->
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+31-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:22-64
+32
+33    <uses-feature
+33-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+34        android:glEsVersion="0x00020000"
+34-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+35        android:required="true" />
+35-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.its_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.its_food.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:9:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\f8a1103822bd9d8b9adc33a5afb14cf3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+46        android:icon="@mipmap/ic_launcher"
+46-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:10:9-43
+47        android:label="its_food" >
+47-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:8:9-33
+48        <meta-data
+48-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:11:9-13:70
+49            android:name="com.google.android.geo.API_KEY"
+49-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:12:13-58
+50            android:value="AIzaSyD2ONrvdAQ4b1sWkrShSVUD9TKSiApzd5g" />
+50-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:13:13-68
+51
+52        <activity
+52-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:14:9-34:20
+53            android:name="com.example.its_food.MainActivity"
+53-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:15:13-41
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:19:13-163
+55            android:exported="true"
+55-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:16:13-36
+56            android:hardwareAccelerated="true"
+56-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:20:13-47
+57            android:launchMode="singleTop"
+57-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:17:13-43
+58            android:theme="@style/LaunchTheme"
+58-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:18:13-47
+59            android:windowSoftInputMode="adjustResize" >
+59-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:21:13-55
+60
+61            <!--
+62                 Specifies an Android theme to apply to this Activity as soon as
+63                 the Android process has started. This theme is visible to the user
+64                 while the Flutter UI initializes. After that, this theme continues
+65                 to determine the Window background behind the Flutter UI.
+66            -->
+67            <meta-data
+67-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:26:13-29:17
+68                android:name="io.flutter.embedding.android.NormalTheme"
+68-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:27:17-72
+69                android:resource="@style/NormalTheme" />
+69-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:28:17-54
+70
+71            <intent-filter>
+71-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:30:13-33:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:31:17-68
+72-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:31:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:32:17-76
+74-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:32:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:37:9-39:33
+82            android:name="flutterEmbedding"
+82-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:38:13-44
+83            android:value="2" />
+83-->D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\android\app\src\main\AndroidManifest.xml:39:13-30
+84
+85        <service
+85-->[:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+86            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+86-->[:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+87            android:enabled="true"
+87-->[:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+88            android:exported="false"
+88-->[:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+89            android:foregroundServiceType="location" /> <!-- Needs to be explicitly declared on P+ -->
+89-->[:geolocator_android] D:\Kuliah\SEMESTER 6\Pemrograman Bergerak\Flutter\its_food\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+90        <uses-library
+90-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+91            android:name="org.apache.http.legacy"
+91-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+92            android:required="false" />
+92-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\andry\.gradle\caches\transforms-3\ce7a3549bf20a131fea51fecd1b3c188\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\975acc97ba635665a507d417e0dbc4b1\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\andry\.gradle\caches\transforms-3\cdff9ce5f7c7627fd1541c1438e68f6e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\andry\.gradle\caches\transforms-3\0caf18921e61514189a95345450821bd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+109    </application>
+110
+111</manifest>

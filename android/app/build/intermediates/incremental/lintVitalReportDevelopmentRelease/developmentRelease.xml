@@ -1,0 +1,48 @@
+<variant
+    name="developmentRelease"
+    package="com.example.its_food"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="build\intermediates\merged_manifest\developmentRelease\AndroidManifest.xml"
+    manifestMergeReport="build\outputs\logs\manifest-merger-development-release-report.txt"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0;D:\Software\Programming Software\Flutter SDK\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro;build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.3.0;proguard-rules.pro"
+    partialResultsDir="build\intermediates\lint_vital_partial_results\developmentRelease\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin"
+        resDirectories="src\main\res"
+        assetsDirectories="src\main\assets"/>
+    <sourceProvider
+        manifest="src\development\AndroidManifest.xml"
+        javaDirectories="src\development\java;src\development\kotlin"
+        resDirectories="src\development\res"
+        assetsDirectories="src\development\assets"/>
+    <sourceProvider
+        manifest="src\release\AndroidManifest.xml"
+        javaDirectories="src\release\java;src\release\kotlin"
+        resDirectories="src\release\res"
+        assetsDirectories="src\release\assets"/>
+    <sourceProvider
+        manifest="src\developmentRelease\AndroidManifest.xml"
+        javaDirectories="src\developmentRelease\kotlin"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="build\intermediates\javac\developmentRelease\classes;build\tmp\kotlin-classes\developmentRelease;build\kotlinToolingMetadata;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\developmentRelease\R.jar"
+      applicationId="com.example.its_food"
+      generatedSourceFolders="build\generated\ap_generated_sources\developmentRelease\out;build\generated\aidl_source_output_dir\developmentRelease\out;build\generated\source\buildConfig\development\release;build\generated\renderscript_source_output_dir\developmentRelease\out"
+      generatedResourceFolders="build\generated\res\rs\development\release;build\generated\res\resValues\development\release">
+  </mainArtifact>
+</variant>

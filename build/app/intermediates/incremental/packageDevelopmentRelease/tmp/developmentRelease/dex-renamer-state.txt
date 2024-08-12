@@ -1,0 +1,4 @@
+#Sun Jul 14 01:04:01 WIB 2024
+base.0=D\:\\Kuliah\\SEMESTER 6\\Pemrograman Bergerak\\Flutter\\its_food\\build\\app\\intermediates\\dex\\developmentRelease\\minifyDevelopmentReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
